@@ -38,6 +38,15 @@ header{
     margin-top: -20px;
 }
 
+.login:hover {
+    background-color: #B9EDDD;
+}
+
+.wrapper>.login>a {
+    color: black;
+    text-decoration: none;
+}
+
 .welcome {
     margin-left: -530px;
     margin-top: 200px;
@@ -71,7 +80,7 @@ header{
 
 .image1 {
     border: 2px solid red;
-    border-radius: 10px;
+    border-radius: 12px;
     float: right;
     margin-top: -250px;
     margin-right: 35px;
@@ -79,7 +88,8 @@ header{
 }
 
 .image1 img {
-    border-radius: 5px;
+    border-radius: 10px;
+    margin: -2px -2px -6px -2px;
 }
 
 .aboutus {
@@ -146,7 +156,7 @@ header{
 
 .image2 {
     border: 2px solid red;
-    border-radius: 10px;
+    border-radius: 12px;
     float: left;
     margin-left: 60px;
     margin-top: 385px;
@@ -154,7 +164,8 @@ header{
 }
 
 .image2 img {
-    border-radius: 5px;
+    border-radius: 10px;
+    margin: -2px -2px -6px -2px;
 }
 
 footer{
