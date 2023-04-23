@@ -1,0 +1,185 @@
+html {
+    background-color: #8ec5fc;
+    background-image: linear-gradient(62deg, #8ec5fc 0%, #fcc7c3 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 1280px;
+    padding: 10px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(159, 247, 247);
+} 
+
+.logo{
+    height: 30px;
+    margin-left: -5px;
+    margin-top: 0px;
+}
+
+.penukaran{
+    border: 1px solid black;
+    padding: 4px 8px;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 1115px;
+    margin-top: -36px;
+    margin-bottom: 10px;
+    margin-right: 60px;
+}
+
+.penukaran:hover {
+    background-color: aqua;
+}
+
+.wrapper>.penukaran>a {
+    color: black;
+    text-decoration: none;
+}
+
+.user{
+    border: 1px solid black;
+    padding: 4px 8px;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 1210px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.user:hover {
+    background-color: aqua;
+}
+
+.wrapper>.user>a {
+    color: black;
+    text-decoration: none;
+}
+
+.image {
+    float: left;
+    width: 200px;
+    margin-top: 120px;
+    margin-left: 70px;
+}
+
+.image img {
+    width: 400px;
+}
+
+.text {
+    font-size: 25px;
+    margin-top: -19px;
+    margin-left: 173px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(65, 57, 57);
+}
+
+.text1 {
+    font-size: 25px;
+    margin-top: -29px;
+    margin-left: 206px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(65, 57, 57);
+}
+
+.card {
+    float: right;
+    width: 41%;
+    margin-top: 80px;
+    margin-right: 230px;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.data {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+.title{
+    text-align: center;  
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.content{
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content p{
+    margin-top: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.no {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    background-color: skyblue;
+}
+
+.yes {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    float: right;
+    margin-right: 100px;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    background-color: skyblue;
+}
+
+.card>.yes>a {
+    text-decoration: none;
+    color: black;
+}
+
+.card>.no>a {
+    text-decoration: none;
+    color: black;
+}
+
+.no:hover {
+    background-color: rgb(248, 67, 67);
+}
+
+.yes:hover {
+    background-color: rgb(6, 244, 18);
+}
+
+footer{
+    width: 1260px;
+    padding: 10px;
+    margin-top: 484px;
+    text-align: center;
+    background-color: rgb(159, 247, 247);
+    color: black;
+    font-size: 13px solid;
+}
