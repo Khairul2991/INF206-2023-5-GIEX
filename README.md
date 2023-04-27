@@ -1,6 +1,9 @@
-# INF206-2023-5-GIEX
-- Khairul Auni (2108107010016)
-- Al Hilal Habib (2108107010020)
-- Muhammad Kemal Fasya (2108107010052)
-- Wilda Fahera (2108107010026)
-- Abdul Helmi (2108107010028)
+### Cara menjalankan :
+
+-   Clone repo
+-   Setelah repo di clone, install composer dependencies. ketik :
+    `composer install`
+-   Buat file .env caranya : Salin file .env.example dan ubah nama filenya menjadi .env, Atur konfigurasi database, seperti nama database, username, password, dan host.
+-   Jalankan perintah `php artisan key:generate` untuk membuat APP_KEY baru
+-   Jika ingin melakukan migrate untuk membuat tabel-tabel pada database yang telah diatur pada file .env, ketik `php artisan migrate`
+-   Jalankan perintah `php artisan serve` untuk menjalankan server lokal
