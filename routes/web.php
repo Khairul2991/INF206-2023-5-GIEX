@@ -16,3 +16,27 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('landingpage');
 });
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/kuota', function () {
+    return view('kuota');
+});
+
+Route::get('/penukaran', function () {
+    return view('penukaran');
+});
+
+Route::get('/informasidata', function () {
+    return view('informasidata');
+});
+
+Route::get('/daftar', function () {
+    return view('daftar');
+});
+
+Route::get('/pulsa', function () {
+    return view('pulsa');
+});
