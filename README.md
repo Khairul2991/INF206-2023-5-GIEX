@@ -8,4 +8,3 @@
 -   Jalankan perintah `php artisan key:generate` untuk membuat APP_KEY baru
 -   Jika ingin melakukan migrate untuk membuat tabel-tabel pada database yang telah diatur pada file .env, ketik `php artisan migrate`
 -   Jalankan perintah `php artisan serve` untuk menjalankan server lokal
-    q
