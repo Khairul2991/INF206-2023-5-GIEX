@@ -14,10 +14,10 @@
                 <img src="img/logo4.png" width="85px">
             </div>
             <div class="user">
-                <a href="/InformasiData/index.html">User</a>
+                <a href="/informasidata">User</a>
             </div>
             <div class="penukaran">
-                <a href="/Penukaran/index.html">Penukaran</a>
+                <a href="/penukaran">Penukaran</a>
             </div>
         </nav>
     </header>
@@ -32,7 +32,7 @@
             </div>
         </div>
         <div class="no">
-            <a href="/Penukaran/index.html">No</a>
+            <a href="/penukaran">No</a>
         </div>
         <div class="yes">
             <a href="#">Yes</a>

@@ -51,7 +51,7 @@ header{
 .card {
     float: right;
     width: 32%;
-    margin-top: 180px;
+    margin-top: 160px;
     margin-right: 430px;
     padding: 10px;
     border: 2px solid red;
@@ -72,6 +72,12 @@ header{
     font-weight: bold;
     margin-top: 8px;
     margin-bottom: 30px;
+}
+
+.info {
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .pulsa {
@@ -121,7 +127,7 @@ header{
 .image {
     float: left;
     width: 200px;
-    margin-top: -440px;
+    margin-top: -470px;
     margin-left: 480px;
 }
 

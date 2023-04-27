@@ -14,7 +14,7 @@
                 <img src="img/logo4.png" width="85px">
             </div>
             <div class="login">
-                <a href="/Login/index.html">Login</a>
+                <a href="/login">Login</a>
             </div>
         </nav>
     </header>

@@ -14,10 +14,10 @@
                 <img src="img/logo4.png" width="85px">
             </div>
             <div class="home">
-                <a href="/LandingPage/index.html">Home</a>
+                <a href="/">Home</a>
             </div>
             <div class="login">
-                <a href="/Login/index.html">Login</a>
+                <a href="/login">Login</a>
             </div>
         </nav>
     </header>
@@ -34,10 +34,10 @@
             </div>
         </div>
         <div class="punyaakun">
-            <p>Sudah punya akun? <a href="/Login/index.html"> Login</a></p>
+            <p>Sudah punya akun? <a href="/login"> Login</a></p>
         </div>
         <div class="daftar">
-            <a href="/Login/index.html">Daftar</a>
+            <a href="/login">Daftar</a>
         </div>
     </div>
 

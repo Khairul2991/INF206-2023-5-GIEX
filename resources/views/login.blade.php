@@ -14,7 +14,7 @@
                 <img src="img/logo4.png" width="85px">
             </div>
             <div class="home">
-                <a href="/LandingPage/index.html">Home</a>
+                <a href="/">Home</a>
             </div>
         </nav>
     </header>
@@ -34,10 +34,10 @@
             </div>
         </div>
         <div class="masuk">
-            <a href="/InformasiData/index.html">masuk</a>
+            <a href="/informasidata">masuk</a>
         </div>
         <div class="daftar">
-            <p>Belum punya akun? <a href="/Daftar/index.html">Daftar</a></p>
+            <p>Belum punya akun? <a href="/daftar">Daftar</a></p>
         </div>
     </div>
 
