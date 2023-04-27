@@ -14,7 +14,7 @@
                 <img src="img/logo4.png" width="85px">
             </div>
             <div class="user">
-                <a href="/InformasiData/index.html">User</a>
+                <a href="/informasidata">User</a>
             </div>
         </nav>
     </header>
@@ -23,11 +23,15 @@
         <div class="data">
             <div class="title">Penukaran :</div>
         </div>
+        <div class="info">
+            <p>3 tiket = Pulsa 30.000</p>
+            <p>3 tiket = kuota 4 GB</p>
+        </div>
         <div class="pulsa">
-            <a href="/Pulsa/index.html">Pulsa</a>
+            <a href="/pulsa">Pulsa</a>
         </div>
         <div class="kuota">
-            <a href="/Kuota/index.html">Kuota</a>
+            <a href="/kuota">Kuota</a>
         </div>
     </div>
 
