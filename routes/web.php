@@ -24,3 +24,11 @@ Route::get('/login', function () {
 Route::get('/kuota', function () {
     return view('kuota');
 });
+
+Route::get('/penukaran', function () {
+    return view('penukaran');
+});
+
+Route::get('/informasidata', function () {
+    return view('informasidata');
+});
