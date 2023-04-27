@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/penukaran.css">
-    <title>Penukaran</title>
+    <link rel="stylesheet" href="css/pulsa.css">
+    <title>Penukaran Pulsa</title>
 </head>
 <body>
     <header>
@@ -16,38 +16,31 @@
             <div class="user">
                 <a href="/informasidata">User</a>
             </div>
+            <div class="penukaran">
+                <a href="/penukaran">Penukaran</a>
+            </div>
         </nav>
     </header>
 
     <div class="card">
         <div class="data">
-            <div class="title">Penukaran :</div>
+            <div class="title">Pulsa</div>
+            <div class="content">
+                <p>Apakah anda ingin menukarkan 3 tiket
+                    dengan pulsa sebesar Rp. 30.000 ?
+                </p>
+            </div>
         </div>
-        <div class="info">
-            <p>3 tiket = Pulsa 30.000</p>
-            <p>3 tiket = kuota 4 GB</p>
+        <div class="no">
+            <a href="/penukaran">No</a>
         </div>
-        <div class="pulsa">
-            <a href="/pulsa">Pulsa</a>
-        </div>
-        <div class="kuota">
-            <a href="/kuota">Kuota</a>
+        <div class="yes">
+            <a href="#">Yes</a>
         </div>
     </div>
 
     <div class="image">
-        <img src="img/image.png">
-    </div>
-
-    <div class="image1">
         <img src="img/pulsa.png">
-    </div>
-
-    <div class="image2">
-        <img src="img/kuota.png">
-        <div class="text">
-            Isi Kuota
-        </div>
     </div>
     
     <footer>

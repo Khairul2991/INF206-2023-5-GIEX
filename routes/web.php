@@ -32,3 +32,11 @@ Route::get('/penukaran', function () {
 Route::get('/informasidata', function () {
     return view('informasidata');
 });
+
+Route::get('/daftar', function () {
+    return view('daftar');
+});
+
+Route::get('/pulsa', function () {
+    return view('pulsa');
+});

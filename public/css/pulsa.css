@@ -23,18 +23,36 @@ header{
     margin-top: 0px;
 }
 
-.a{
-    color: white;
-}
-
-.user{
+.penukaran{
     border: 1px solid black;
-    padding: 4px 12px;
+    padding: 4px 8px;
     border-radius: 50px;
     background-color: white;
     font-size: 15px;
     text-align: center;
-    margin-left: 1200px;
+    margin-left: 1115px;
+    margin-top: -36px;
+    margin-bottom: 10px;
+    margin-right: 60px;
+}
+
+.penukaran:hover {
+    background-color: aqua;
+}
+
+.wrapper>.penukaran>a {
+    color: black;
+    text-decoration: none;
+}
+
+.user{
+    border: 1px solid black;
+    padding: 4px 8px;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 1210px;
     margin-top: -20px;
     margin-bottom: 10px;
 }
@@ -51,10 +69,8 @@ header{
 .image {
     float: left;
     width: 200px;
-    margin-top: 150px;
-    margin-left: 300px;
-    border: 2px solid red;
-    border-radius: 100px;
+    margin-top: 145px;
+    margin-left: 200px;
 }
 
 .image img {
@@ -64,9 +80,9 @@ header{
 
 .card {
     float: right;
-    width: 32%;
-    margin-top: 95px;
-    margin-right: 250px;
+    width: 41%;
+    margin-top: 80px;
+    margin-right: 230px;
     padding: 10px;
     border: 2px solid red;
     border-radius: 5px;
@@ -82,7 +98,7 @@ header{
 
 .title{
     text-align: center;  
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bold;
     margin-top: 8px;
     margin-bottom: 30px;
@@ -94,75 +110,54 @@ header{
 }
 
 .content p{
-    margin-top: 20px;
-    font-size: 20px;
-}
-
-.ganti {
-    border: 1px solid black;
-    padding: 4px 8px;
-    border-radius: 30px;
-    background-color: skyblue;
-    font-size: 15px;
+    margin-top: 40px;
+    font-size: 30px;
     text-align: center;
-    float: right;
-    margin-top: -24px;
-    margin-right: -15px;
 }
 
-.ganti:hover {
-    background-color: rgb(59, 157, 243);
-}
-
-.logout {
+.no {
     border: 1px solid black;
     padding: 5px 10px;
-    border-radius: 30px;
-    font-size: 20px;
+    border-radius: 5px;
+    font-size: 30px;
     text-align: center;
     float: left;
-    margin-left: 60px;
-    margin-top: 40px;
+    margin-left: 100px;
+    margin-top: 70px;
     margin-bottom: 15px;
     background-color: skyblue;
 }
 
-.logout:hover {
+.yes {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    float: right;
+    margin-right: 100px;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    background-color: skyblue;
+}
+
+.card>.yes>a {
+    text-decoration: none;
+    color: black;
+}
+
+.card>.no>a {
+    text-decoration: none;
+    color: black;
+}
+
+.no:hover {
     background-color: rgb(248, 67, 67);
 }
 
-.penukaran {
-    border: 1px solid black;
-    padding: 5px 10px;
-    border-radius: 30px;
-    font-size: 20px;
-    text-align: center;
-    float: right;
-    margin-right: 60px;
-    margin-top: 40px;
-    margin-bottom: 15px;
-    background-color: skyblue;
-}
-
-.penukaran:hover {
+.yes:hover {
     background-color: rgb(6, 244, 18);
 }
-
-.card>.data>.content>.ganti>a {
-    text-decoration: none;
-    color: black;
-}
-
-.card>.penukaran>a {
-    text-decoration: none;
-    color: black;
-}
-
-.card>.logout>a {
-    text-decoration: none;
-    color: black;
-}
-
 
 footer{
     width: 1260px;

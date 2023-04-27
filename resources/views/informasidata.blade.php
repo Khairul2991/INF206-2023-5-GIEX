@@ -14,7 +14,7 @@
                 <img src="img/logo4.png" width="85px">
             </div>
             <div class="user">
-                <a href="/InformasiData/index.html">User</a>
+                <a href="/informasidata">User</a>
             </div>
         </nav>
     </header>
@@ -26,16 +26,16 @@
                 <p>Nama : </p>
                 <p>No. Hp : </p>
                 <div class="ganti">
-                    <a href="/GantiNomor/index.html">Ganti Nomor</a>
+                    <a href="/gantinomor">Ganti Nomor</a>
                 </div>
                 <p>Total Tiket : </p>
             </div>
         </div>
-        <div class="keluar">
-            <a href="/LandingPage/index.html">Keluar</a>
+        <div class="logout">
+            <a href="/">Logout</a>
         </div>
         <div class="penukaran">
-            <a href="/Penukaran/index.html">Penukaran</a>
+            <a href="/penukaran">Penukaran</a>
         </div>
     </div>
 
