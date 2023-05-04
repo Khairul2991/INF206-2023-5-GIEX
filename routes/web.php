@@ -21,21 +21,27 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/kuota', function () {
-    return view('kuota');
-});
-
-Route::get('/penukaran', function () {
-    return view('penukaran');
+Route::get('/daftar', function () {
+    return view('daftar');
 });
 
 Route::get('/informasidata', function () {
     return view('informasidata');
 });
 
-Route::get('/daftar', function () {
-    return view('daftar');
+Route::get('/gantinomor', function () {
+    return view('gantinomor');
 });
+
+Route::get('/penukaran', function () {
+    return view('penukaran');
+});
+
+Route::get('/kuota', function () {
+    return view('kuota');
+});
+
+
 
 Route::get('/pulsa', function () {
     return view('pulsa');
