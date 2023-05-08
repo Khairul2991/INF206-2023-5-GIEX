@@ -1,52 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/pulsa.css">
-    <title>Penukaran Pulsa</title>
-</head>
-<body>
-    <header>
-        <nav class="wrapper">
-            <div class="logo">
-                <img src="img/logo4.png" width="85px">
+<link rel="stylesheet" href="css/pulsa.css">
+<x-app-layout>
+    <div class="py-12" style="background-color: #8ec5fc; background-image: linear-gradient(62deg, #8ec5fc 0%, #fcc7c3 100%);">
+        <div class="card">
+            <div class="data">
+                <div class="title">Pulsa</div>
+                <div class="content">
+                    <p>Apakah anda ingin menukarkan 3 tiket
+                        dengan pulsa sebesar Rp. 30.000 ?
+                    </p>
+                </div>
             </div>
-            <div class="user">
-                <a href="/informasidata">User</a>
-            </div>
-            <div class="penukaran">
-                <a href="/penukaran">Penukaran</a>
-            </div>
-        </nav>
-    </header>
+            <button id="noButton" class="noButton" type="button"><a href="/penukaran">No</a></button>
+            <button id="yesButton" class="yesButton" type="button">Yes</button>
+        </div>
 
-    <div class="card">
-        <div class="data">
-            <div class="title">Pulsa</div>
-            <div class="content">
-                <p>Apakah anda ingin menukarkan 3 tiket
-                    dengan pulsa sebesar Rp. 30.000 ?
-                </p>
-            </div>
-        </div>
-        <div class="no">
-            <a href="/penukaran">No</a>
-        </div>
-        <div class="yes">
-            <a href="#">Yes</a>
-        </div>
-    </div>
+        <script>
+            var totalTiket = {{ Auth::user()->total_tiket }}; // Mengambil nilai total_tiket dari Laravel
+        
+            var yesButton = document.getElementById('yesButton');
 
-    <div class="image">
-        <img src="img/pulsa.png">
-    </div>
+            if (totalTiket >= 3) {
+                yesButton.disabled = false;
+                yesButton.addEventListener('click', function() {
+                    alert('Sukses ditukar, mohon menunggu');
+                    window.location.href = "dashboard";
+                });
+            } else {
+                yesButton.disabled = true;
+                yesButton.style.backgroundColor = "#ccc";
+            }
+        </script>
     
-    <footer>
-        <p> &copy; Made by Khairul Auni, Wilda Fahera, 
-            Al Hilal Habib, Muhammad Kemal Fasya, and Abdul Helmi</p>
-    </footer>
-
-</body>
-</html>
+        <div class="image">
+            <img src="img/pulsa.png">
+        </div>
+        
+        <footer>
+            <p> &copy; Made by Khairul Auni, Wilda Fahera, 
+                Al Hilal Habib, Muhammad Kemal Fasya, and Abdul Helmi</p>
+        </footer>
+    </div>
+</x-app-layout>
