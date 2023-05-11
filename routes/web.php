@@ -1,7 +1,10 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\KuotaController;
+use App\Http\Controllers\pulsaController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\PenukaranController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,7 +36,7 @@ require __DIR__.'/auth.php';
 
 Route::get('/penukaran', function () {
     return view('penukaran');
-});
+})->name('penukaran');
 Route::get('/gantinomor', function () {
     return view('gantinomor');
 });
@@ -44,4 +47,5 @@ Route::get('/pulsa', function () {
     return view('pulsa');
 });
 
-// Route::get('/penukaran', [PenukaranController::class, 'index'])->name('penukaran');
+Route::put('/kuota', [KuotaController::class, 'store'])->name('kuota.store');
+Route::put('/pulsa', [PulsaController::class, 'store'])->name('pulsa.store');

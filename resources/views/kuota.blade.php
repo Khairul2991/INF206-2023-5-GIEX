@@ -10,26 +10,15 @@
                     </p>
                 </div>
             </div>
+            
             <button id="noButton" class="noButton" type="button"><a href="/penukaran">No</a></button>
-            <button id="yesButton" class="yesButton" type="button">Yes</button>
-        </div>
-
-        <script>
-            var totalTiket = {{ Auth::user()->total_tiket }}; // Mengambil nilai total_tiket dari Laravel
         
-            var yesButton = document.getElementById('yesButton');
-
-            if (totalTiket >= 3) {
-                yesButton.disabled = false;
-                yesButton.addEventListener('click', function() {
-                    alert('Sukses ditukar, mohon menunggu');
-                    window.location.href = "dashboard";
-                });
-            } else {
-                yesButton.disabled = true;
-                yesButton.style.backgroundColor = "#ccc";
-            }
-        </script>
+            <form action="{{ route('kuota.store', Auth::user()->id) }}" method="post">
+                @csrf
+                @method('PUT')
+                <button id="yesButton" class="yesButton" type="submit">Yes</button>
+            </form>
+        </div>
     
         <div class="image">
             <img src="img/kuota.png">
