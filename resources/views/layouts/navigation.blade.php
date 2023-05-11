@@ -15,12 +15,9 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
-                    {{-- <x-nav-link :href="route('penukaran')" :active="request()->routeIs('penukaran')">
+                    <x-nav-link :href="route('penukaran')" :active="request()->routeIs('penukaran')">
                         {{ __('Penukaran') }}
-                    </x-nav-link> --}}
-                    <a href="/penukaran" style="margin-top:18px; font-size:15px">
-                        {{ __('Penukaran') }}
-                    </a>
+                    </x-nav-link>
                 </div>  
             </div>
 

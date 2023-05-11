@@ -11,25 +11,13 @@
                 </div>
             </div>
             <button id="noButton" class="noButton" type="button"><a href="/penukaran">No</a></button>
-            <button id="yesButton" class="yesButton" type="button">Yes</button>
+
+            <form action="{{ route('pulsa.store', Auth::user()->id) }}" method="post">
+                @csrf
+                @method('PUT')
+                <button id="yesButton" class="yesButton" type="submit">Yes</button>
+            </form>
         </div>
-
-        <script>
-            var totalTiket = {{ Auth::user()->total_tiket }}; // Mengambil nilai total_tiket dari Laravel
-        
-            var yesButton = document.getElementById('yesButton');
-
-            if (totalTiket >= 3) {
-                yesButton.disabled = false;
-                yesButton.addEventListener('click', function() {
-                    alert('Sukses ditukar, mohon menunggu');
-                    window.location.href = "dashboard";
-                });
-            } else {
-                yesButton.disabled = true;
-                yesButton.style.backgroundColor = "#ccc";
-            }
-        </script>
     
         <div class="image">
             <img src="img/pulsa.png">
