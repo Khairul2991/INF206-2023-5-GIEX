@@ -69,8 +69,8 @@ header{
 .image {
     float: left;
     width: 200px;
-    margin-top: 145px;
-    margin-left: 200px;
+    margin-top: 80px;
+    margin-left: 230px;
 }
 
 .image img {
@@ -81,7 +81,7 @@ header{
 .card {
     float: right;
     width: 41%;
-    margin-top: 80px;
+    margin-top: 10px;
     margin-right: 230px;
     padding: 10px;
     border: 2px solid red;
@@ -110,14 +110,13 @@ header{
 }
 
 .content p{
-    margin-top: 40px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
 }
 
-.no {
+#noButton {
     border: 1px solid black;
-    padding: 5px 10px;
+    padding: 0px 8px;
     border-radius: 5px;
     font-size: 30px;
     text-align: center;
@@ -128,9 +127,9 @@ header{
     background-color: skyblue;
 }
 
-.yes {
+#yesButton {
     border: 1px solid black;
-    padding: 5px 10px;
+    padding: 0px 8px;
     border-radius: 5px;
     font-size: 30px;
     text-align: center;
@@ -141,28 +140,29 @@ header{
     background-color: skyblue;
 }
 
-.card>.yes>a {
+#card>.yesButton>a {
     text-decoration: none;
     color: black;
 }
 
-.card>.no>a {
+#card>.noButton>a {
     text-decoration: none;
     color: black;
 }
 
-.no:hover {
+#noButton:hover {
     background-color: rgb(248, 67, 67);
 }
 
-.yes:hover {
+#yesButton:hover {
     background-color: rgb(6, 244, 18);
 }
 
 footer{
-    width: 1260px;
+    width: 100%;
     padding: 10px;
-    margin-top: 484px;
+    margin-top: 420px;
+    margin-bottom: -50px;
     text-align: center;
     background-color: rgb(159, 247, 247);
     color: black;
