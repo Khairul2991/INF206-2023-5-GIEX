@@ -1,6 +1,6 @@
 html {
     background-color: #8ec5fc;
-    background-image: linear-gradient(62deg, #8ec5fc 0%, #fcc7c3 100%);
+    background-image: linear-gradient(62deg, #fcc7c3 0%, #8ec5fc 100%);
 }
 
 * {
@@ -50,7 +50,7 @@ header{
 
 .welcome {
     margin-left: -530px;
-    margin-top: 200px;
+    margin-top: -400px;
 }
 
 .welcome1 {
@@ -85,12 +85,10 @@ header{
     float: right;
     margin-top: -250px;
     margin-right: 35px;
-    padding: 2px;
 }
 
 .image1 img {
     border-radius: 10px;
-    margin: -2px -2px -6px -2px;
 }
 
 .aboutus {
@@ -166,18 +164,16 @@ header{
     float: left;
     margin-left: 60px;
     margin-top: 390px;
-    padding: 2px;
 }
 
 .image2 img {
     border-radius: 10px;
-    margin: -2px -2px -6px -2px;
 }
 
 footer{
-    width: 1243px;
+    width: 100%;
     padding: 10px;
-    margin-top: 790px;
+    margin-top: 900px;
     text-align: center;
     background-color: rgb(159, 247, 247);
     color: black;
