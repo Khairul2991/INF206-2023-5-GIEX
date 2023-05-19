@@ -8,9 +8,6 @@
                     <p>Nama : {{ Auth::user()->name}}</p>
                     <p>Email : {{ Auth::user()->email}}</p>
                     <p>No. Hp : {{ Auth::user()->no_hp}}</p>
-                    <div class="ganti">
-                        <a href="/gantinomor">Ganti Nomor</a>
-                    </div>
                     <p>Total Tiket : {{ Auth::user()->total_tiket}}</p>
                 </div>
             </div>

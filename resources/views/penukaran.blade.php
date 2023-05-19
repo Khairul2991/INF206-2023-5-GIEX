@@ -17,9 +17,9 @@
             </div>
         </div>
     
-        <div class="image">
+        {{-- <div class="image">
             <img src="img/image.png">
-        </div>
+        </div> --}}
     
         <div class="image1">
             <img src="img/pulsa.png">
