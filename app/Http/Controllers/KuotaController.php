@@ -29,7 +29,7 @@ class KuotaController extends Controller
             Alert::success('Penukaran Berhasil', 'Mohon menunggu');
             return redirect('dashboard');
         }
-        Alert::error('Gagal', 'Total Kuota tidak mencukupi!');
+        Alert::error('Gagal', 'Total Tiket tidak mencukupi!');
         return back();
     }
 }
